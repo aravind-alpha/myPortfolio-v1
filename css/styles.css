@@ -19,8 +19,6 @@ body {
 	margin: 0 auto;
 }
 
-/* ===== Header Navigation Bar Starts ===== */
-
 .header {
 	background-color: #000000;
 	width: 100%;
@@ -88,15 +86,11 @@ body {
 	transform: rotate(360deg);
   }
 
-  /* menu */
-  
   .header .menu {
 	clear: both;
 	max-height: 0;
 	transition: max-height .2s ease-out;
   }
-  
-  /* menu icon */
   
   .header .menu-icon {
 	cursor: pointer;
@@ -135,8 +129,6 @@ body {
 	top: -5px;
   }
   
-  /* menu btn */
-  
   .header .menu-btn {
 	display: none;
   }
@@ -162,7 +154,6 @@ body {
 	top: 0;
   }
   
-  /* 48em = 768px */
   
   @media (min-width: 48em) {
 	.header li {
@@ -181,10 +172,6 @@ body {
 	}
   }
 
-/* ===== Header Navigation Bar Ends ===== */
-
-
-/* ===== Home-Here Section Starts ===== */
 
 .home-here {
 	background: #0E0E0E;
@@ -211,7 +198,6 @@ body {
 	float: right;
 }
 
-/* Hand Wave Animation */
 span.wave {
 	animation-name: wave-animation;    /* Refers to the name of your @keyframes element below */
 	animation-duration: 2.5s;          /* Change to speed up or slow down */
@@ -298,13 +284,6 @@ span.wave {
 	display: block;
 }
 
-/* Text swap Effect animation */
-
-
-/* ===== Media-Section ===== */
-
-/* Tablets */
-
 @media screen and (min-width : 768px) and (max-width : 1023px){
 	.container{
 		width: 60%;
@@ -329,7 +308,6 @@ span.wave {
 	}
 }
 
-/* Mobile Phones */
 
 @media screen and (min-width : 0px) and (max-width : 767px){
 	.container{
@@ -374,11 +352,6 @@ span.wave {
 		display: block;
 	}
 }
-
-/* ===== Home-Here Section Bar Ends ===== */
-
-
-/* ===== Home-Skills Section Starts ===== */
 
 .home-skills {
 	display: block;
@@ -436,9 +409,6 @@ span.wave {
 	display: block;
 }
 
-/* === Media Section === */
-
-/* Tablets */
 
 @media screen and (min-width : 768px) and (max-width : 1023px){
 	.home-skills {
@@ -496,8 +466,6 @@ span.wave {
 		display: block;
 	}
 }
-
-/* Mobiles */
 
 
 @media screen and (min-width : 0px) and (max-width : 767px){
@@ -559,10 +527,6 @@ span.wave {
 
 }
 
-/* ===== Home-Skills Section Ends ===== */
-
-/* ===== Portfolio Section Starts ===== */
-
 .portfolio {
 	background: #0E0E0E;
 	padding: 3em 0;
@@ -621,10 +585,6 @@ span.wave {
 	border-style: solid;
 	border-width: thin;
 }
-
-/* === Media Section === */
-
-/* Tablets */
 
 @media screen and (min-width : 768px) and (max-width : 1023px) {
 	
@@ -689,8 +649,6 @@ span.wave {
 	}
 }
 
-/* Mobiles */
-
 @media screen and (min-width : 0px) and (max-width : 767px) {
 	
 	.portfolio {
@@ -752,13 +710,6 @@ span.wave {
 		border-width: thin;
 	}
 }
-
-/* ===== Portfolio Section Ends ===== */
-
-
-/* ======= Interests Section Starts ====== */
-
-/* Dare to dream Style Starts */
 
 @import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
 
@@ -837,8 +788,6 @@ span.wave {
   }
 }
 
-/* Dare to dream Style Ends */
-
 .interests {
 	background: #000000;
 	padding: 3em 1.5em;
@@ -886,11 +835,6 @@ span.wave {
 	color: lightblue;
 	text-align: center;
 }
-
-
-/* === Media Section === */
-
-/* Tablets */
 
 @media screen and (min-width : 768px) and (max-width : 1023px){
 	.interests {
@@ -947,9 +891,6 @@ span.wave {
 		float: right;
 	}
 }
-
-
-/* Mobile */
 
 @media screen and (min-width : 0px) and (max-width : 767px) {
 	
@@ -1008,11 +949,6 @@ span.wave {
 	}
 }
 
-/* ======= Interests Section Ends ====== */
-
-
-/* ======= Contact Section Starts ====== */
-
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 .contact {
@@ -1058,11 +994,6 @@ span.wave {
 	background-color: #000000
 	
 }
-
-
-/* === Media Section === */
-
-/* Tablets */
 
 @media screen and (min-width : 768px) and (max-width : 1023px) {
 	.contact {
@@ -1111,9 +1042,6 @@ span.wave {
 	
 }
 
-
-/* Mobile */
-
 @media screen and (min-width : 0px) and (max-width : 767px) {
 	.contact {
 		background: #0E0E0E;
@@ -1159,11 +1087,8 @@ span.wave {
 	}
 }
 
-
-/* ======= Contact Section Ends ====== */
-
 .footer {
-	padding: 2rem;
+    padding: 2rem;
     background-color: #000000;
     width: 100%;
     display: flex;
@@ -1173,9 +1098,6 @@ span.wave {
     position: relative;
     z-index: 0;
 }
-
-
-/* === Scroll to Top Section === */
 
 .go-top {
 	font-size: 16px;
@@ -1190,5 +1112,3 @@ span.wave {
 	box-shadow: .1em 0 0;
 	position:fixed;
 }
-
-/* === Footer Section Ends === */
