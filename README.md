@@ -1,3 +1,3 @@
 My PortFolio
 
-Made with Github and Hosted on Netlify
+Made with HTML | CSS | JS and Hosted on Netlify
