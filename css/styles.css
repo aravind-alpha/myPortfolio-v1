@@ -51,10 +51,25 @@ body {
   color: #157af6;
 }
 
-.header li a:hover,
+/* .header li a:hover,
 .header .menu-btn:hover {
   background-color: #90caf9;
   color: #000000;
+} */
+.header li a::before {
+  content: "";
+  display: block;
+  height: 3px;
+  background: #157af6;
+  top: -3em;
+  left: 0px;
+  right: 0px;
+  transform: scale(0, 1);
+  transition: transform ease-in-out 250ms;
+}
+
+.header li a:hover::before {
+  transform: scale(1, 1);
 }
 
 .header .logo {
