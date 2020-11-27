@@ -399,7 +399,7 @@ span.wave {
 .skills-para {
   font-weight: 500;
   font-size: 24px;
-  color: #0073ff;
+  color: #5bafeb;
   margin: 1em;
   align-self: center;
 }
@@ -439,7 +439,7 @@ span.wave {
   padding: 1em 0;
   font-size: 6 px;
   display: none;
-  color: #157af6;
+  color: #5bafeb;
   text-align: center;
 }
 
@@ -457,7 +457,7 @@ span.wave {
   .skills-para {
     font-weight: 500;
     font-size: 25px;
-    color: #157af6;
+    color: #5bafeb;
   }
 
   .card {
@@ -495,7 +495,7 @@ span.wave {
     padding: 1em 0;
     font-size: 7 px;
     display: none;
-    color: #157af6;
+    color: #5bafeb;
     text-align: center;
   }
 
@@ -514,7 +514,7 @@ span.wave {
   .skills-para {
     font-weight: 500;
     font-size: 20px;
-    color: #157af6;
+    color: #5bafeb;
   }
 
   .card {
@@ -552,7 +552,7 @@ span.wave {
     padding: 2px 0;
     font-size: 10px;
     display: none;
-    color: #157af6;
+    color: #5bafeb;
     text-align: center;
   }
 
