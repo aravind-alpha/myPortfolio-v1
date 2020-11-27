@@ -3,7 +3,7 @@
 ![MIT](https://img.shields.io/badge/License-MIT-628AFF?style=flat&logo=license)
 ![icons](https://img.shields.io/badge/icons-fontawesome-EE85EE?style=flat&logo=font-awesome)
 
-Built a Simple Responsive Portfolio using HTML | CSS | JS
+Built a Simple Responsive Portfolio using HTML | CSS | JavaScript
 
 ### 👨‍🍳 Author
 
