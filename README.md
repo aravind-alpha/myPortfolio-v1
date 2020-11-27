@@ -1,5 +1,16 @@
-My PortFolio - Version 1
+### Portfolio-V1
 
-Made with HTML | CSS | JS and Hosted on Netlify
+![MIT](https://img.shields.io/badge/License-MIT-628AFF?style=flat&logo=license)
+![icons](https://img.shields.io/badge/icons-fontawesome-EE85EE?style=flat&logo=font-awesome)
 
-Have a look at My current Portfolio [Here](https://aravind.netlify.com) => Made with Gatsby | React | Strapi :nerd_face:
+Built a Simple Responsive Portfolio using HTML | CSS | JS
+
+### 👨‍🍳 Author
+
+[![Linkedin](https://i.stack.imgur.com/gVE0j.png) Aravind's LinkedIn](https://www.linkedin.com/in/aravind-alpha)
+
+If you like this project, show some love by giving it a ★ 😊
+
+### Active Portfolio
+
+[View Current Portfolio.](https://aravind.netlify.app/)
